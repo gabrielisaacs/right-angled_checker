@@ -39,7 +39,7 @@ int main() {
     } else if(angle1 == 90 || angle2 == 90 || angle3 == 90) {
         printf("The triangle is right-angled.\n");
 
-    // if none the else if statement above is not true, the triangle is not right-angled, hence let's use an else to print this
+    // if the else if statement above is not true, the triangle is not right-angled, hence let's use an else to print that the triangle is not right-angled
     } else {
         printf("The triangle is not right-angled.\n");
     }
